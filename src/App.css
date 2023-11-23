@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+button, input {
+  font-family: inherit;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 15px 0px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.search-bar {
+  width: 500px;
+  font-size: 15px;
+  padding: 15px 20px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  border-width: 0px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+li {
+  margin-right: 10px;
+}
+
+.option-btn {
+  width: 75px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.option-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.option-btn:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.detail-card-container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 100px 250px;
+}
+
+@media(max-width: 800px) {
+  .detail-card-container {
+    margin: 100px 100px;
   }
 }

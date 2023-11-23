@@ -1,0 +1,28 @@
+.card-body {
+    background-color: rgba(190, 181, 181, 0.5);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body:hover {
+    background-color: rgba(190, 181, 181, 1);
+}
+
+.dnd-name, .detail-btn {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.detail-btn {
+    padding: 25px 30px;
+    background-color: rgba(148, 48, 48, 0.5);
+    border-radius: 10px;
+}
+
+.detail-btn:hover {
+    background-color: rgba(185, 56, 56, 1);
+    cursor: pointer;
+}

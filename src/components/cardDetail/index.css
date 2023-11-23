@@ -1,0 +1,26 @@
+.card-detail {
+    padding: 10px 20px;
+}
+
+span {
+    box-shadow: rgba(0, 0, 0, 0.7) !important;
+    background-color: grey !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.detail-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pro-item {
+    list-style-type: disc;
+}
+
+@media(max-width: 800px) {
+    .detail-body {
+      flex-direction: column;
+    }
+  }
