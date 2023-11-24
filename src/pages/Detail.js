@@ -42,7 +42,7 @@ export default function Detail() {
     
     return(
         <div className="container" style={{ backgroundImage: `url(${Wallpaper})` }}>
-            <img src={Wallpaper}></img>
+            <img src={Wallpaper} className="img-container"></img>
             {!result || isLoading ? (
                 <div className="center">
                     <h1>Loading...</h1>

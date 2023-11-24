@@ -54,7 +54,7 @@ export default function Home() {
 
     return(
         <div className="container" style={{ backgroundImage: `url(${tavern})` }}>
-            <img src={tavern}></img>
+            <img src={tavern} className="img-container"></img>
                 <h1 style={{ color: "whitesmoke", textAlign: "center" }}>Start Your Journey Here</h1>
                 <ul className="center">
                     <li><button className="option-btn" onClick={()=> {setIsLoaded(false); setQuery(); setType('classes/');}}><b>Kelas</b></button></li>

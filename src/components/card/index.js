@@ -16,7 +16,7 @@ export default function index({data}) {
             {data ? (
                 <>
                     <figure>
-                        <div className="card-body">
+                        <div className="card-body" onClick={()=> navigateDetail()}>
                             <h2 className="dnd-name">{data.name}</h2>
                             <a className="detail-btn" onClick={()=> navigateDetail()}><b>Detail</b></a>
                         </div>

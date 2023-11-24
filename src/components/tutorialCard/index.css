@@ -1,0 +1,70 @@
+.tutorial-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tutorial-card-body {
+    display: flex;
+    background-color: rgba(235, 210, 210, 0);
+    margin: 5px;
+    font-size: 30px;
+}
+
+.tutorial-btn {
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    color: grey;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.tutorial-btn:hover{
+    transition: 0.3s;
+    background-color: rgba(0,0,0,1);
+}
+
+.tutorial-card-img .thumbnail {
+    width: 30vw;
+    height: 40vh;
+}
+
+.thumbnail {
+    border: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.tutorial-card-img, .tutorial-text {
+    margin: 0;
+}
+
+.div-lain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(max-width: 600px) {
+    .tutorial-card-container {
+        grid-template-columns: auto;
+    }
+
+    .tutorial-card-body{
+        flex-direction: column;
+    }
+
+    .tutorial-card-img .thumbnail {
+        width: 99%;
+    }
+
+    .tutorial-btn {
+        display: none;
+    }
+
+    .tutorial-text {
+        color: grey;
+    }
+}

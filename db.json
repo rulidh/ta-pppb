@@ -1,0 +1,32 @@
+{
+    "tutorial" : [
+        {
+            "title": "D&D Jakarta: Cara Main D&D Online di Roll20",
+            "video": "https://www.youtube.com/embed/KEC59caXO4A",
+            "user": "dndjakarta",
+            "user_img": "https://yt3.ggpht.com/ytc/APkrFKbzWQQq92Br0zKjfdLfUORzQdSk-zz5BKr4Alv_=s48-c-k-c0x00ffffff-no-rj",
+            "description" : "Dungeons & Dragons Jakarta! Yuk main online di roll20.net, caranya gampang kok, di video ini saya akan share mengenai hal ini. Join DNDJakarta Discord Server ya di link / discord. Kunjungi website D&D Jakarta di http://www.dndjakarta.com."
+        },
+        {
+            "title": "How to Play Dungeons and Dragons | A Quick Beginners Guide",
+            "video": "https://www.youtube.com/embed/zONEcUAYDfU",
+            "user": "One Shot Questers",
+            "user_img": "https://yt3.ggpht.com/BtQ5B3GOHoJmnMnhJVL_gDPSsWl9m6wbCkxm2o2BXUYYJXnQtqlJy9GV_ykvCWYNoJ_rnQZPww=s48-c-k-c0x00ffffff-no-rj",
+            "description": "From creating your character to navigating through epic adventures, this video equips you with the essential knowledge and tips to embark on your own thrilling D&D journey with confidence."
+        },
+        {
+            "title": "PANDUAN DND - APA ITU DUNGEON AND DRAGONS ? - EPISODE 1",
+            "video": "https://www.youtube.com/embed/QyNhCd2S3rw",
+            "user": "N20 HIGHROLLERS",
+            "user_img": "https://yt3.ggpht.com/ytc/APkrFKZmVKRXV9h_oJ7FkGohFj_YqrHgcudnWQtGNy4A=s48-c-k-c0x00ffffff-no-rj",
+            "description": "Dungeons & Dragons (disingkat D&D atau DnD) adalah sebuah permainan peran (RPG) berjenis fantasy yang diterbitkan oleh Wizards of the Coast. Permainan Dungeons & Dragons pertama, dirancang oleh Gary Gygax dan Dave Arneson, Nah...kalo kalian tertarik mau main, mulai aja dengan tonton video ini."
+        },
+        {
+            "title": "HOW TO PLAY DUNGEONS & DRAGONS - A beginners guide to D&D",
+            "video": "https://www.youtube.com/embed/0TsicWGho7c",
+            "user": "Sherlock Hulmes",
+            "user_img": "https://yt3.ggpht.com/ytc/APkrFKbAtJSKo9tTBPcd1RFArsmD5qRUVW40kradV7B6=s48-c-k-c0x00ffffff-no-rj",
+            "description": "Love Critical Role? HighRollers? Rivals of Waterdeep? Always wanted to play D&D but didn't know where to start? This video is a complete introduction to D&D, explaining how the game works, how long it takes, what you need to play as well as dispelling myths about what D&D is and isn't."
+        }
+    ]
+}

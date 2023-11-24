@@ -26,3 +26,13 @@
     background-color: rgba(185, 56, 56, 1);
     cursor: pointer;
 }
+
+@media(max-width: 400px) {
+    .detail-btn {
+        display: none;
+    }
+    
+    .card-body {
+        margin: 25px 20px;
+    }
+}
